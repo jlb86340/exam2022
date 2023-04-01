@@ -5,4 +5,7 @@ module com.example.exam_2022 {
 
     opens com.example.exam_2022.question1 to javafx.fxml;
     exports com.example.exam_2022.question1;
+
+    opens com.example.exam_2022.question2 to javafx.fxml;
+    exports com.example.exam_2022.question2;
 }
