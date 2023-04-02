@@ -27,6 +27,7 @@ public class ApplicationVersion2 extends Application {
         Pane board = new Pane();
         board.setPrefSize(500,500);
         board.setStyle("-fx-border-radius: 1; -fx-border-width: 2; -fx-border-color: black");
+        // test
 
         Compteur cptX = new Compteur(100);
         Compteur cptY = new Compteur(180);
